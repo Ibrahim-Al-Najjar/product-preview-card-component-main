@@ -1,9 +1,9 @@
 @font-face {
   font-family: Fraunces;
-  src: url(/assets/fonts/Fraunces/static/Fraunces_72pt-Regular.ttf);
+  src: url(../assets/fonts/Fraunces/static/Fraunces_72pt-Regular.ttf);
 }
 
 @font-face {
   font-family: Montserrat;
-  src: url(/assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+  src: url(../assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
 }
