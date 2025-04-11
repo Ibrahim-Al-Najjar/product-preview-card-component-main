@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.big-card {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 450px;
+}
+.image {
+  height: 110%;
+  width: 50%;
+  background-image: url("../assets/images/image-product-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 0px 0px 10px;
+}
+.small-card {
+  width: 50%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.product-type {
+  font-family: Montserrat;
+  letter-spacing: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.product-name {
+  font-family: Fraunces;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: 10px;
+}
