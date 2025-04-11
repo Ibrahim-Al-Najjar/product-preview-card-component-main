@@ -22,9 +22,11 @@ body {
   align-items: center;
   width: 600px;
   height: 450px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px hsla(212, 21%, 14%, 0.123);
 }
 .image {
-  height: 110%;
+  height: 101%;
   width: 50%;
   background-image: url("../assets/images/image-product-desktop.jpg");
   background-size: cover;
@@ -32,21 +34,84 @@ body {
   border-radius: 10px 0px 0px 10px;
 }
 .small-card {
-  width: 50%;
   background-color: hsl(0, 0%, 100%);
+  padding-inline: 30px;
+  width: 50%;
+  height: 100%;
   border-radius: 0px 10px 10px 0px;
 }
 
 .product-type {
   font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
   letter-spacing: 5px;
-  margin-left: 10px;
-  margin-top: 10px;
+  margin-block: 20px;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .product-name {
   font-family: Fraunces;
+  color: hsl(212, 21%, 14%);
+  font-size: 38px;
+  line-height: 35px;
   font-weight: bolder;
-  margin-left: 20px;
   margin-top: 10px;
+}
+
+.product-description {
+  font-family: Montserrat;
+  font-size: 17px;
+  color: hsl(228, 12%, 48%);
+  margin-top: 20px;
+  font-weight: 500;
+}
+.price {
+  margin-block: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.price-after {
+  font-family: Fraunces;
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.price-before {
+  font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
+  font-size: 13px;
+  font-weight: 600;
+}
+.add-to-cart {
+  display: flex;
+  align-items: center;
+}
+.add-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  font-family: Montserrat;
+  font-weight: 500;
+  width: 260px;
+  height: 50px;
+  border-style: none;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  transition: 0.2s ease;
+}
+
+.add-button:hover {
+  background-color: hsl(158, 42%, 18%);
+}
+
+a {
+  text-decoration: none;
 }
