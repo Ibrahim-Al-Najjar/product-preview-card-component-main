@@ -19,6 +19,7 @@ body {
 }
 
 .big-card {
+  margin-inline: 20px;
   overflow: hidden;
   display: flex;
   align-items: center;
